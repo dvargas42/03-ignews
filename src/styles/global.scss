@@ -11,8 +11,10 @@
   --gray-300: #a8a8b3;
   --gray-800: #29292E;
   --gray-900: #121214;
-
+  
   --cyan-500: #61dafb;
+  --cyan-800: #1f2729;
+
   --yellow-500: #eba417;
 }
 
@@ -39,6 +41,7 @@ body, input, textarea, select, button {
 
 button {
   cursor: pointer;
+  border: 0;
 }
 
 a {
