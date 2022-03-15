@@ -47,7 +47,7 @@
 This application was part of an exercise given in class to establish knowledge of resources and
 functions for rendering information in a Next Web application.
 
-## 📸 Sreenshots
+## 📸 Screenshots
 
 Images of the application in operation.
 
