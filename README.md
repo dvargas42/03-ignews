@@ -86,14 +86,15 @@ Technologies that I used to develop this web application
 - [Testing Library](https://testing-library.com/docs/)
 - [Jest](https://jestjs.io/)
 
-## 🧪 Tests
+## 🧪 Tests - Coverage
 
 In this project we use the Jest library to test all .tsx files. In addition, we use the Coverage tool to assess the coverage of our tests and it can be seen [here](/coverage/lcov-report/index.html).
 
 
 <p align="center">
-<img alt="ScreenShot01" src="https://res.cloudinary.com/dvargas42/image/upload/v1647829499/ignews/test_imw9bm.png" width="600px">
+<img alt="ScreenShot01" src="https://res.cloudinary.com/dvargas42/image/upload/v1647829499/ignews/test_imw9bm.png" width="800px">
 </p>
+
 ## 💻 Getting started
 
 ### Requirements
