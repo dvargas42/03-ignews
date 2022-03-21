@@ -37,6 +37,7 @@
   <a href="#%EF%B8%8F-about-the-project">About the project</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-screnshots">Screenshots</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-technologies">Technologies</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-tests">Tests</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-getting-started">Getting started</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-how-to-contribute">How to contribute</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-license">License</a>
@@ -81,7 +82,18 @@ Technologies that I used to develop this web application
 - [FaunaDB](https://fauna.com/)
 - [Prismic CMS](https://prismic.io/)
 - [Stripe](https://stripe.com/br)
+- [Nprogress](https://www.npmjs.com/package/nprogress)
+- [Testing Library](https://testing-library.com/docs/)
+- [Jest](https://jestjs.io/)
 
+## 🧪 Tests
+
+In this project we use the Jest library to test all .tsx files. In addition, we use the Coverage tool to assess the coverage of our tests and it can be seen [here](/coverage/lcov-report/index.html).
+
+
+<p align="center">
+<img alt="ScreenShot01" src="https://res.cloudinary.com/dvargas42/image/upload/v1647829499/ignews/test_imw9bm.png" width="600px">
+</p>
 ## 💻 Getting started
 
 ### Requirements
