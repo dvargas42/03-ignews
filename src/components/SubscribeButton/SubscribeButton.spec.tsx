@@ -44,13 +44,14 @@ describe("SubscribeButton component", () => {
   it("should to redirect to posts page when user already has a subscription", () => {
     const useSessionMocked = mocked(useSession);
     const useRouterMocked = mocked(useRouter);
+    const pushMocked = jest.fn();
 
     useSessionMocked.mockReturnValueOnce({
       data: { activeSubscription: true },
     } as any);
 
     useRouterMocked.mockReturnValueOnce({
-      push: jest.fn(),
+      push: pushMocked,
     } as any);
 
     render(<SubscribeButton />);
@@ -59,7 +60,7 @@ describe("SubscribeButton component", () => {
 
     fireEvent.click(subscribeButton);
 
-    expect(useRouterMocked).toBeCalled();
+    expect(pushMocked).toHaveBeenCalledWith("/posts");
   });
 
   it("should to show alert when axios api not working", () => {
@@ -84,12 +85,14 @@ describe("SubscribeButton component", () => {
     }
   });
 
-  it("shouldn't to show alert when services working", () => {
+  it("shouldn't to show alert when services working", async () => {
     const useSessionMocked = mocked(useSession);
     const useRouterMocked = mocked(useRouter);
+
     const apiPostMocked = mocked(api.post);
     const stripeMocked = mocked(getStripeJs);
 
+    const pushMocked = jest.fn();
     const sessionId = "test-id";
 
     useSessionMocked.mockReturnValueOnce({
@@ -106,8 +109,8 @@ describe("SubscribeButton component", () => {
       },
     });
 
-    stripeMocked.mockResolvedValueOnce({
-      redirectToCheckout: jest.fn(),
+    stripeMocked.mockReturnValueOnce({
+      redirectToCheckout: pushMocked,
     } as any);
 
     render(<SubscribeButton />);
@@ -116,6 +119,6 @@ describe("SubscribeButton component", () => {
     fireEvent.click(subscribeButton);
 
     expect(apiPostMocked).toHaveBeenCalledWith("/subscribe");
-    // expect(stripeMocked).toHaveBeenCalledWith({ sessionId });
+    //expect(await pushMocked).toHaveBeenCalled();
   });
 });
