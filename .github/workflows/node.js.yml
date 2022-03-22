@@ -28,7 +28,7 @@ jobs:
         gistID: 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
         filename: 03-ignews_coverage.json
         label: coverage
-        message: ${{ env.COVERAGE }}
+        message: ${{ env.GITHUB_ENV }}
         namedLogo: jest
         color: blue
         logoColor: lightblue
