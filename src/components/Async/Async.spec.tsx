@@ -7,11 +7,11 @@ import {
 import { Async } from ".";
 
 describe("Async component", () => {
-  // it("should to render correctly 01", () => {
-  //   render(<Async />);
+  it("should to render correctly 01", () => {
+    render(<Async />);
 
-  //   expect(screen.getByText("Hello World")).toBeInTheDocument();
-  // });
+    expect(screen.getByText("Hello World")).toBeInTheDocument();
+  });
 
   // it("should to render correctly 02 - no wait", () => {
   //   render(<Async />);
@@ -38,22 +38,22 @@ describe("Async component", () => {
   //   );
   // });
 
-  it("should to render correctly 05 - wait 3 seconds", async () => {
-    render(<Async />);
+  // it("should to render correctly 05 - wait 3 seconds", async () => {
+  //   render(<Async />);
 
-    await waitFor(
-      () => {
-        return expect(screen.queryByText("Button")).not.toBeInTheDocument();
-      },
-      { timeout: 3000 }
-    );
-  });
+  //   await waitFor(
+  //     () => {
+  //       return expect(screen.queryByText("Button")).not.toBeInTheDocument();
+  //     },
+  //     { timeout: 1000 }
+  //   );
+  // });
 
-  it("should to render correctly 06 - wait 3 seconds", async () => {
-    render(<Async />);
+  // it("should to render correctly 06 - wait 3 seconds", async () => {
+  //   render(<Async />);
 
-    await waitForElementToBeRemoved(screen.queryByText("Button"), {
-      timeout: 3000,
-    });
-  });
+  //   await waitForElementToBeRemoved(screen.queryByText("Button"), {
+  //     timeout: 1000,
+  //   });
+  // });
 });
