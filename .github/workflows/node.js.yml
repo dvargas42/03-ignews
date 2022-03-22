@@ -25,7 +25,7 @@ jobs:
       uses: schneegans/dynamic-badges-action@master
       with:
         auth: ${{ secrets.GIST_SECRET }}
-        gistID: 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
+        gistID: 904bc2cf0f5749e4c3f011940161dedd
         filename: 03-ignews_coverage.json
         label: coverage
         message: ${{ env.COVERAGE }}
