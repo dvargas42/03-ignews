@@ -30,7 +30,7 @@
   <img alt="GitHub" src="https://img.shields.io/github/license/dvargas42/03-ignews?color=yellow">
 </p>
 
-![Coverage Badge](https://img.shields.io/endpoint?url=https://gist.githubusercontent.com/03-ignews/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/raw/03-ignews__heads_main.json)
+![Coverage Badge](https://img.shields.io/endpoint?url=https://gist.githubusercontent.com/03-ignews/904bc2cf0f5749e4c3f011940161dedd/raw/03-ignews__heads_main.json)
 
 
 <p align="center">
