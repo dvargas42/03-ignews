@@ -22,3 +22,5 @@ jobs:
           echo '{"schemaVersion":1,"label":"coverage","message":"$(echo ${TOKENS[2]})","color":"blue","namedLogo":"jest","logoColor":"lighblue"}' >> ./fluir_coverage.json
           echo "ls -a ${{ github.workspace }}"
           ls -a ${{ github.workspace }}
+          echo "cat fluir_coverage.json"
+          cat fluir_coverage.json
