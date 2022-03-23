@@ -19,6 +19,6 @@ jobs:
           SUMMARY="$(yarn jest --coverage --coverageReporters=text-summary | tail -3 | head -1)"
           TOKENS=($SUMMARY)
           echo "COVERAGE=$(echo ${TOKENS[2]})" >> $GITHUB_ENV
-          echo "{"schemaVersion":1,"label":"coverage","message":"$(echo ${TOKENS[2]})","color":"blue","namedLogo":"jest","logoColor":"lighblue"} >> ./fluir_coverage.json
+          echo '{"schemaVersion":1,"label":"coverage","message":"$(echo ${TOKENS[2]})","color":"blue","namedLogo":"jest","logoColor":"lighblue"}' >> ./fluir_coverage.json
           echo "ls -a ${{ github.workspace }}"
           ls -a ${{ github.workspace }}
