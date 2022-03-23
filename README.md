@@ -28,9 +28,11 @@
   </a>
 
   <img alt="GitHub" src="https://img.shields.io/github/license/dvargas42/03-ignews?color=yellow">
+
+  <img alt="GitHub" src="https://img.shields.io/endpoint?url=https://gist.githubusercontent.com/dvargas42/904bc2cf0f5749e4c3f011940161dedd/raw/03-ignews_coverage.json">
 </p>
 
-
+<!-- ![Coverage Badge](https://img.shields.io/endpoint?url=https://gist.githubusercontent.com/dvargas42/904bc2cf0f5749e4c3f011940161dedd/raw/03-ignews_coverage.json) -->
 
 
 <p align="center">
