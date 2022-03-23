@@ -1,0 +1,21 @@
+name: coverage badge
+
+on:
+  push:
+    branches: [ main ]
+
+jobs:
+  checks:
+    runs-on: ubuntu-20.04
+    steps:
+    - uses: actions/checkout@v2
+
+    - name: Install modules
+      run: yarn --prefer-offline
+
+    - name: Run unit tests with coverage
+      run: |
+        SUMMARY="$(yarn jest --coverage --coverageReporters=text-summary | tail -3 | head -1)"
+        TOKENS=($SUMMARY)
+        echo "COVERAGE=$(echo ${TOKENS[2]})" >> $GITHUB_ENV
+        echo "{"schemaVersion":1,"label":"coverage","message":"$(echo ${TOKENS[2]})","color":"blue","namedLogo":"jest","logoColor":"lighblue"} >> .data/fuir_coverage.json
