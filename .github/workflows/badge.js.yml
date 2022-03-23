@@ -1,8 +1,8 @@
-name: coverage badge
+name: coverage badge in local
 
 on:
   push:
-    branches: [teste]
+    branches: [main]
 
 jobs:
   checks:
