@@ -8,14 +8,13 @@
 ---
 
 <p align="center">
-  <a href="#-git">Git</a>&nbsp;|&nbsp;
-  <a href="#-workflow">Workflow</a>&nbsp;|&nbsp;
-  <a href="#-código">Código</a>&nbsp;|&nbsp;
-  <a href="#-tratativa de erros">Tratativa de erros</a>&nbsp;|&nbsp;
-  <a href="#-analytics">Analytics</a>&nbsp;|&nbsp;
-  <a href="#-logflare">Logflare</a>&nbsp;|&nbsp;
-  <a href="#-remote dev">Remote Dev</a>&nbsp;|&nbsp;
-    Remote Dev
+  <a href="#git">Git</a>&nbsp;|&nbsp;
+  <a href="#workflow">Workflow</a>&nbsp;|&nbsp;
+  <a href="#código">Código</a>&nbsp;|&nbsp;
+  <a href="#tratativa-de-erros">Tratativa de erros</a>&nbsp;|&nbsp;
+  <a href="#analytics">Analytics</a>&nbsp;|&nbsp;
+  <a href="#logflare">Logflare</a>&nbsp;|&nbsp;
+  <a href="#remote-dev">Remote Dev</a>&nbsp;|&nbsp;
 </p>
 
 ## Manual para os devs
