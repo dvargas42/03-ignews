@@ -14,7 +14,7 @@
   <a href="#tratativa-de-erros">Tratativa de erros</a>&nbsp;|&nbsp;
   <a href="#analytics">Analytics</a>&nbsp;|&nbsp;
   <a href="#logflare">Logflare</a>&nbsp;|&nbsp;
-  <a href="#eslint-\&-prettier">ESlint & Prettier</a>&nbsp;|&nbsp;
+  <a href="#eslint-e-prettier">ESlint e Prettier</a>&nbsp;|&nbsp;
   <a href="#remote-dev">Remote Dev</a>
 </p>
 
@@ -55,7 +55,7 @@ Google Analytics e Hotjar gravam os eventos necessários automaticamente.
 
 Logs adicionais são feitos através do pino_logflare.ts, que envia eventos para o Logflare.
 
-### **ESlint & Prettier**
+### **ESlint e Prettier**
   Hoje, o nosso projeto está configurado utilizando o lint do próprio Next e o plugin base do Airbnb. Para que ele funcione adequadamente será necessário ter em sua IDE as seguintes extensões instaladas:
 
   * [ESlint](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint)
