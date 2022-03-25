@@ -4,6 +4,7 @@
 
 # Fluir web app
 
+
 <p align="center">
   <a href="#git">Git</a>&nbsp;|&nbsp;
   <a href="#workflow">Workflow</a>&nbsp;|&nbsp;
@@ -15,10 +16,14 @@
   <a href="#remote-dev">Remote Dev</a>
 </p>
 
-<hr style="height:1px">
+---
+
 <br/>
 
 [Staging](https://fluir-staging.vercel.app/) | [Production](https://app.fluir.io/)
+
+<br/>
+
 
 ## Manual para os devs
 
