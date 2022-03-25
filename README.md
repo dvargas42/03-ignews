@@ -18,12 +18,10 @@
 
 ---
 
-<br/>
 
 [Staging](https://fluir-staging.vercel.app/) | [Production](https://app.fluir.io/)
 
 <br/>
-
 
 ## Manual para os devs
 
