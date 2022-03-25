@@ -3,9 +3,6 @@
 </h1>
 
 # Fluir web app
-[Staging](https://fluir-staging.vercel.app/) | [Production](https://app.fluir.io/)
-
----
 
 <p align="center">
   <a href="#git">Git</a>&nbsp;|&nbsp;
@@ -18,7 +15,11 @@
   <a href="#remote-dev">Remote Dev</a>
 </p>
 
----
+<hr style="height:1px">
+<br/>
+
+[Staging](https://fluir-staging.vercel.app/) | [Production](https://app.fluir.io/)
+
 ## Manual para os devs
 
 ### Autenticação no app
@@ -77,7 +78,7 @@ Logs adicionais são feitos através do pino_logflare.ts, que envia eventos para
 ### ⚠ **Problemas conhecidos**
 - Fique atento para não deixar instruções duplicadas no `settings.json` do VS Code, pois o salvamento automático pode deixar de funcionar;
 
-- Outro ponto é com relação ao plugin do ***Eslint*** quando ele está em um terceiro nível do diretório `~/home`, ele não consegue encontrar o ***path*** para o ***Prettier*** o que impede de reconhecer erros e diferenças do padrão assumido. Eis os exemplos de ***path*** correto e incorreto, respectivamente:
+- Outro ponto importante é com relação ao plugin do ***ESlint***. Quando a diretório do projeto está em um terceiro nível do diretório `~/home`, o ***ESlint*** não consegue encontrar o ***path*** para o ***Prettier*** o que o impede de reconhecer erros e diferenças de padrão. Eis os exemplos de ***path*** correto e incorreto, respectivamente:
 
   - ✔️ `~/home/dir1/fluir-webapp`
   - ❌ `~/home/dir1/dir2/fluir-webapp`
@@ -110,5 +111,3 @@ Logs adicionais são feitos através do pino_logflare.ts, que envia eventos para
     `IMPORTANT` if VSCode prompts you to close/save existing terminal/files, that is ok</br>
     `IMPORTANT` if VSCode prompts you to choose a folder/configuration/etc, means you're in the wrong folder, i.e. the file `.devcontainer.json` is missing</br>
     `IMPORTANT` the Remote-Container default branch is 'staging', but you can switch from inside the Remote-Container once open</br>
-
-
