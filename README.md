@@ -17,6 +17,7 @@
   <a href="#remote-dev">Remote Dev</a>&nbsp;|&nbsp;
 </p>
 
+---
 ## Manual para os devs
 
 ### Autenticação no app
