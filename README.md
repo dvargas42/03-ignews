@@ -14,7 +14,7 @@
   <a href="#tratativa-de-erros">Tratativa de erros</a>&nbsp;|&nbsp;
   <a href="#analytics">Analytics</a>&nbsp;|&nbsp;
   <a href="#logflare">Logflare</a>&nbsp;|&nbsp;
-  <a href="#eslint-&-prettier">ESlint/Prettier</a>&nbsp;|&nbsp;
+  <a href="#eslint/prettier">ESlint/Prettier</a>&nbsp;|&nbsp;
   <a href="#remote-dev">Remote Dev</a>
 </p>
 
