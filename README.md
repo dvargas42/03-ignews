@@ -66,22 +66,18 @@ Logs adicionais são feitos através do pino_logflare.ts, que envia eventos para
   Para tal, aperte Ctrl-Shift-P (Windows e Linux) ou Cmd-Shift-P (Mac), e digite `Preferences: Open Settings (JSON)` e acrescente as seguintes linhas no arquivo:
 
   ```json
-  ...
   "editor.formatOnSave": false,
   "editor.defaultFormatter": "esbenp.prettier-vscode",
   "editor.codeActionsOnSave": {
     "source.formatDocument": true,
     "source.fixAll": true
   },
-  ...
-
   ```
 
+### ⚠ **Problemas conhecidos**
+- Fique atento para não deixar instruções duplicadas no `settings.json` do VS Code, pois o salvamento automático pode deixar de funcionar;
 
-###  ⚠ **Problemas conhecidos**
-- Fique atendo para não deixar instruções duplicadas no `settings.json` do VS Code, pois o salvamento automático pode deixar de funcionar;
-
-- Outro problema é com relação ao plugin do Eslint quando ele está em um terceiro nível do diretório `~/home`, ele não consegue encontrar o path para o Prettier o que impede de reconhecer erros e diferenças do padão em tempo real. Por exemplo:
+- Outro ponto é com relação ao plugin do ***Eslint*** quando ele está em um terceiro nível do diretório `~/home`, ele não consegue encontrar o ***path*** para o ***Prettier*** o que impede de reconhecer erros e diferenças do padrão assumido. Eis os exemplos de ***paths***:
 
   - ✔️ `~/home/dir1/fluir-webapp`
   - ❌ `~/home/dir1/dir2/fluir-webapp`
